@@ -1,0 +1,70 @@
+*{
+    position: relative;
+}
+
+header{
+    -webkit-box-shadow: -20px 27px 104px 52px rgba(0,0,0,0.21);
+    -moz-box-shadow: -20px 27px 104px 52px rgba(0,0,0,0.21);
+    box-shadow: -20px 27px 104px 52px rgba(0,0,0,0.21);
+    
+    
+}
+
+
+.button2:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color:#6c7c7c;
+    opacity: 95%;
+}
+.button1:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color:#6c7c7c;
+    opacity: 95%;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+
+.logo{
+    max-width: 80px;
+    max-height: 100px;
+   display: flex;
+   margin-left: 50px;
+}
+/* .buttons{
+    border-radius: 80%;
+} */
+/* 
+.bouncy{
+	 animation:bouncy 5s infinite linear;
+	 position:relative;
+	}
+	
+	@keyframes bouncy {
+	 0%{top:0em}
+	 40%{top:0em}
+	 43%{top:-0.9em}
+	 46%{top:0em}
+	 48%{top:-0.4em}
+	 50%{top:0em}
+	 100%{top:0em;}
+	} */
+
+
+	/* console.log(champs[name].tags)
+	if (champs[name].tags === 'Support'){
+	support.push(properties)}
+	else if (champs[name].tags === "Marksman"){
+	adc.push(properties)}
+	else if (champs[name].tags === "Mage"){
+	mid.push(properties)}
+	else if (champs[name].tags === "Assassin"){
+	mid.push(properties)}
+	else if (champs[name].tags === "Fighter"){
+	jungle.push(properties)}
+	else if (champs[name].tags === "Tank"){ */

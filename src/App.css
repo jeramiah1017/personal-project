@@ -1,3 +1,10 @@
+body {
+  height: 200vh;
+  background-image: url(https://vignette.wikia.nocookie.net/leagueoflegends/images/b/b5/Howling_Abyss_Landscape.png/revision/latest?cb=20170303155408);
+}
+
+
+
 .App {
   text-align: center;
 }

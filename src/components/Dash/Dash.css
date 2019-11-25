@@ -1,0 +1,16 @@
+.button1, .button2{
+    box-shadow:inset 0px 1px 3px 0px grey;
+	background:linear-gradient(to bottom,black 5%, black 100%);
+	background-color: grey;
+	border-radius:5px;
+	border:1px solid #161616;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-style:italic;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:1px 1px 36px #2b665e;
+}
