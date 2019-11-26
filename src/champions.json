@@ -208,7 +208,7 @@
     "key": "32",
     "name": "Amumu",
     "title": "the Sad Mummy",
-    "blurb": "''Solitude can be lonelier than death.''<br><br>A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ...",
+    "blurb": "''Solitude can be lonelier than death.''.A lonely and melancholy soul from ancient Shurima, Amumu roams the world in search of a friend. Cursed by an ancient spell, he is doomed to remain alone forever, as his touch is death and his affection ...",
     "info": {
     "attack": 2,
     "defense": 6,
@@ -457,7 +457,7 @@
     "key": "268",
     "name": "Azir",
     "title": "the Emperor of the Sands",
-    "blurb": "''Shurima was once the glory of Runeterra. I will make it so again.''<br><br>Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his ...",
+    "blurb": "''Shurima was once the glory of Runeterra. I will make it so again.''.Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his ...",
     "info": {
     "attack": 6,
     "defense": 3,
@@ -655,7 +655,7 @@
     "key": "201",
     "name": "Braum",
     "title": "the Heart of the Freljord",
-    "blurb": "''Would you like a bedtime story?''<br><br>''Grandma, I'm too old for that.''<br><br>''You're never too old to be told a story.''<br><br>The girl reluctantly crawls into bed and waits, knowing she won't win this battle. A bitter wind howls outside, ...",
+    "blurb": "''Would you like a bedtime story?''.''Grandma, I'm too old for that.''.''You're never too old to be told a story.''.The girl reluctantly crawls into bed and waits, knowing she won't win this battle. A bitter wind howls outside, ...",
     "info": {
     "attack": 3,
     "defense": 9,
@@ -705,7 +705,7 @@
     "key": "51",
     "name": "Caitlyn",
     "title": "the Sheriff of Piltover",
-    "blurb": "''Go ahead, run. I'll give you a five minute head start.''<br><br>One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts ...",
+    "blurb": "''Go ahead, run. I'll give you a five minute head start.''.One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts ...",
     "info": {
     "attack": 8,
     "defense": 2,
@@ -1002,7 +1002,7 @@
     "key": "131",
     "name": "Diana",
     "title": "Scorn of the Moon",
-    "blurb": "''I am the light coursing in the soul of the moon.''<br><br>Bearing her crescent moonblade, Diana fights as a warrior of the Lunari, a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, ...",
+    "blurb": "''I am the light coursing in the soul of the moon.''.Bearing her crescent moonblade, Diana fights as a warrior of the Lunari, a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, ...",
     "info": {
     "attack": 7,
     "defense": 6,
@@ -1101,7 +1101,7 @@
     "key": "36",
     "name": "Dr. Mundo",
     "title": "the Madman of Zaun",
-    "blurb": "''Beware the Madman of Zaun. In his eyes, you are already dead''<br><br>It is said that the man now known as Dr. Mundo was born without any sort of conscience. Instead, he had an unquenchable desire to inflict pain through experimentation. By the time ...",
+    "blurb": "''Beware the Madman of Zaun. In his eyes, you are already dead''.It is said that the man now known as Dr. Mundo was born without any sort of conscience. Instead, he had an unquenchable desire to inflict pain through experimentation. By the time ...",
     "info": {
     "attack": 5,
     "defense": 7,
@@ -1201,7 +1201,7 @@
     "key": "60",
     "name": "Elise",
     "title": "the Spider Queen",
-    "blurb": "''Beauty is power too, and can strike swifter than any sword.''<br><br>Elise is a deadly predator who dwells in a shuttered, lightless palace, deep in the Immortal Bastion of Noxus. Once she was mortal, the mistress of a once-powerful house, but the ...",
+    "blurb": "''Beauty is power too, and can strike swifter than any sword.''.Elise is a deadly predator who dwells in a shuttered, lightless palace, deep in the Immortal Bastion of Noxus. Once she was mortal, the mistress of a once-powerful house, but the ...",
     "info": {
     "attack": 6,
     "defense": 5,
@@ -1401,7 +1401,7 @@
     "key": "114",
     "name": "Fiora",
     "title": "the Grand Duelist",
-    "blurb": "''I have come to kill you for the sake of honor. And though you possess none, still you die.''<br>The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. ...",
+    "blurb": "''I have come to kill you for the sake of honor. And though you possess none, still you die.''.The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. ...",
     "info": {
     "attack": 10,
     "defense": 4,
@@ -1501,7 +1501,7 @@
     "key": "3",
     "name": "Galio",
     "title": "the Sentinel's Sorrow",
-    "blurb": "''There is no such thing as redemption. Only penance.''<br><br>Long before the regulation of magic, mages experimented with the creation of artificial life. Now forbidden, instilling golems with reason was once not so uncommon a practice amongst the ...",
+    "blurb": "''There is no such thing as redemption. Only penance.''.Long before the regulation of magic, mages experimented with the creation of artificial life. Now forbidden, instilling golems with reason was once not so uncommon a practice amongst the ...",
     "info": {
     "attack": 3,
     "defense": 7,
@@ -1551,7 +1551,7 @@
     "key": "41",
     "name": "Gangplank",
     "title": "the Saltwater Scourge",
-    "blurb": "''I was cutting throats and sinking Noxian war galleys when you were still pissing your britches, boy. You don't want to take me on.''<br><br>As unpredictable as he is brutal, the dethroned reaver king known as Gangplank is feared far and wide. Where ...",
+    "blurb": "''I was cutting throats and sinking Noxian war galleys when you were still pissing your britches, boy. You don't want to take me on.''.As unpredictable as he is brutal, the dethroned reaver king known as Gangplank is feared far and wide. Where ...",
     "info": {
     "attack": 7,
     "defense": 6,
@@ -1650,7 +1650,7 @@
     "key": "150",
     "name": "Gnar",
     "title": "the Missing Link",
-    "blurb": "The jungle does not forgive blindness. Every broken branch tells a story.<br><br>I've hunted every creature this jungle has to offer. I was certain there were no challenges left here, but now there is something new. Each track is the size of a ...",
+    "blurb": "The jungle does not forgive blindness. Every broken branch tells a story..I've hunted every creature this jungle has to offer. I was certain there were no challenges left here, but now there is something new. Each track is the size of a ...",
     "info": {
     "attack": 6,
     "defense": 5,
@@ -1799,7 +1799,7 @@
     "key": "120",
     "name": "Hecarim",
     "title": "the Shadow of War",
-    "blurb": "''Break their ranks and ride them down without mercy. Crush the living and feast on their terror.''<br><br>Hecarim is an armored colossus who charges from the Shadow Isles at the head of a deathly host of spectral horsemen to hunt the living. A ...",
+    "blurb": "''Break their ranks and ride them down without mercy. Crush the living and feast on their terror.''.Hecarim is an armored colossus who charges from the Shadow Isles at the head of a deathly host of spectral horsemen to hunt the living. A ...",
     "info": {
     "attack": 8,
     "defense": 6,
@@ -1849,7 +1849,7 @@
     "key": "74",
     "name": "Heimerdinger",
     "title": "the Revered Inventor",
-    "blurb": "From the Journal of Professor Cecil B. Heimerdinger<br><br>10.14<br><br>09:15<br><br>Current meteorological conditions in Bandle City seem optimal. Atmospheric pressure is ideal for today's experiments!<br><br>Running a fifth trial for my ...",
+    "blurb": "From the Journal of Professor Cecil B. Heimerdinger.10.14.09:15.Current meteorological conditions in Bandle City seem optimal. Atmospheric pressure is ideal for today's experiments!.Running a fifth trial for my ...",
     "info": {
     "attack": 2,
     "defense": 6,
@@ -1899,7 +1899,7 @@
     "key": "420",
     "name": "Illaoi",
     "title": "the Kraken Priestess",
-    "blurb": "''I'm not big on sermons. Broken bones teach better lessons.''<br>Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes' spirits from their bodies and ...",
+    "blurb": "''I'm not big on sermons. Broken bones teach better lessons.''.Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes' spirits from their bodies and ...",
     "info": {
     "attack": 8,
     "defense": 6,
@@ -1949,7 +1949,7 @@
     "key": "39",
     "name": "Irelia",
     "title": "the Will of the Blades",
-    "blurb": "''The sword flourishes, as though painting with blood.''<br><br>The Ionians have developed some of the most breathtaking and deadly martial arts in all of Runeterra - just one manifestation of their pursuit of enlightenment. The most remarkable blade ...",
+    "blurb": "''The sword flourishes, as though painting with blood.''.The Ionians have developed some of the most breathtaking and deadly martial arts in all of Runeterra - just one manifestation of their pursuit of enlightenment. The most remarkable blade ...",
     "info": {
     "attack": 7,
     "defense": 4,
@@ -2099,7 +2099,7 @@
     "key": "59",
     "name": "Jarvan IV",
     "title": "the Exemplar of Demacia",
-    "blurb": "''There is only one truth, and you will find it at the point of my lance.''<br><br>As the royal family of Demacia for centuries, members of the Lightshield line have spent their lives waging war against any who opposed Demacian ethics. It is said that ...",
+    "blurb": "''There is only one truth, and you will find it at the point of my lance.''.As the royal family of Demacia for centuries, members of the Lightshield line have spent their lives waging war against any who opposed Demacian ethics. It is said that ...",
     "info": {
     "attack": 6,
     "defense": 8,
@@ -2249,7 +2249,7 @@
     "key": "202",
     "name": "Jhin",
     "title": "the Virtuoso",
-    "blurb": "''Art requires a certain...cruelty.''<br><br>Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's ...",
+    "blurb": "''Art requires a certain...cruelty.''.Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's ...",
     "info": {
     "attack": 10,
     "defense": 2,
@@ -2348,7 +2348,7 @@
     "key": "429",
     "name": "Kalista",
     "title": "the Spear of Vengeance",
-    "blurb": "''When wronged, we seek justice. When hurt, we strike back. When betrayed, the Spear of Vengeance strikes!''<br><br>A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to ...",
+    "blurb": "''When wronged, we seek justice. When hurt, we strike back. When betrayed, the Spear of Vengeance strikes!''.A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to ...",
     "info": {
     "attack": 8,
     "defense": 2,
@@ -2447,7 +2447,7 @@
     "key": "30",
     "name": "Karthus",
     "title": "the Deathsinger",
-    "blurb": "''Death is not the end of the journey, it is just the beginning...''<br><br>The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath,...",
+    "blurb": "''Death is not the end of the journey, it is just the beginning...''.The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath,...",
     "info": {
     "attack": 2,
     "defense": 2,
@@ -2546,7 +2546,7 @@
     "key": "55",
     "name": "Katarina",
     "title": "the Sinister Blade",
-    "blurb": "Driven by an intense killer instinct, Katarina uses her talents as an assassin for the glory of Noxus, and the continued elevation of her family. While her fervor drives her to ever-greater feats, it can sometimes lead her astray.<br><br>From ...",
+    "blurb": "Driven by an intense killer instinct, Katarina uses her talents as an assassin for the glory of Noxus, and the continued elevation of her family. While her fervor drives her to ever-greater feats, it can sometimes lead her astray..From ...",
     "info": {
     "attack": 4,
     "defense": 3,
@@ -2746,7 +2746,7 @@
     "key": "203",
     "name": "Kindred",
     "title": "The Eternal Hunters",
-    "blurb": "''Tell me again, little Lamb, which things are ours to take?''<br>''All things, Dear Wolf.''<br>Separate, but never parted, Kindred represents the twin essences of death. Lamb's arrow offers a swift release for those who accept their fate. Wolf hunts ...",
+    "blurb": "''Tell me again, little Lamb, which things are ours to take?''.''All things, Dear Wolf.''.Separate, but never parted, Kindred represents the twin essences of death. Lamb's arrow offers a swift release for those who accept their fate. Wolf hunts ...",
     "info": {
     "attack": 8,
     "defense": 2,
@@ -2795,7 +2795,7 @@
     "key": "240",
     "name": "Kled",
     "title": "the Cantankerous Cavalier",
-    "blurb": "''A sane man would run . . . but I ain't the runnin' kind!''<br><br>A warrior as fearless as he is ornery, Kled is a popular folk hero in Noxus. Embodying the furious bravado of his nation, he is an icon beloved by the empire's soldiers, distrusted by ...",
+    "blurb": "''A sane man would run . . . but I ain't the runnin' kind!''.A warrior as fearless as he is ornery, Kled is a popular folk hero in Noxus. Embodying the furious bravado of his nation, he is an icon beloved by the empire's soldiers, distrusted by ...",
     "info": {
     "attack": 8,
     "defense": 2,
@@ -2845,7 +2845,7 @@
     "key": "96",
     "name": "Kog'Maw",
     "title": "the Mouth of the Abyss",
-    "blurb": "''If that's just hungry, I don't want to see angry.''<br><br>When the prophet Malzahar was reborn in Icathia, he was led there by an ominous voice which thereafter anchored itself to his psyche. From within, this voice bestowed upon him terrible ...",
+    "blurb": "''If that's just hungry, I don't want to see angry.''.When the prophet Malzahar was reborn in Icathia, he was led there by an ominous voice which thereafter anchored itself to his psyche. From within, this voice bestowed upon him terrible ...",
     "info": {
     "attack": 8,
     "defense": 2,
@@ -2995,7 +2995,7 @@
     "key": "89",
     "name": "Leona",
     "title": "the Radiant Dawn",
-    "blurb": "''If you would shine like a sun, first you must burn like one.''<br><br>Imbued with the fire of the sun, Leona is a warrior templar of the Solari who defends Mount Targon with her Zenith Blade and Shield of Daybreak. Her skin shimmers with starfire ...",
+    "blurb": "''If you would shine like a sun, first you must burn like one.''.Imbued with the fire of the sun, Leona is a warrior templar of the Solari who defends Mount Targon with her Zenith Blade and Shield of Daybreak. Her skin shimmers with starfire ...",
     "info": {
     "attack": 4,
     "defense": 8,
@@ -3343,7 +3343,7 @@
     "key": "57",
     "name": "Maokai",
     "title": "the Twisted Treant",
-    "blurb": "''All around me are empty husks, soulless and unafraid... but I will bring them fear.''<br><br>Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical ...",
+    "blurb": "''All around me are empty husks, soulless and unafraid... but I will bring them fear.''.Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical ...",
     "info": {
     "attack": 3,
     "defense": 8,
@@ -3443,7 +3443,7 @@
     "key": "21",
     "name": "Miss Fortune",
     "title": "the Bounty Hunter",
-    "blurb": "''The bigger the risk, the bigger the bounty.''<br><br>Beauty and danger: There are few who can match Miss Fortune in either. One of Bilgewater's most infamous bounty hunters, she built her legend upon a swathe of bullet-riddled corpses and captured ...",
+    "blurb": "''The bigger the risk, the bigger the bounty.''.Beauty and danger: There are few who can match Miss Fortune in either. One of Bilgewater's most infamous bounty hunters, she built her legend upon a swathe of bullet-riddled corpses and captured ...",
     "info": {
     "attack": 8,
     "defense": 2,
@@ -3542,7 +3542,7 @@
     "key": "82",
     "name": "Mordekaiser",
     "title": "the Iron Revenant",
-    "blurb": "''All things must die... and yet I live on.''<br><br>The baleful revenant Mordekaiser is among the most terrifying and hateful spirits haunting the Shadow Isles. He has existed for countless centuries, shielded from true death by necromantic sorcery ...",
+    "blurb": "''All things must die... and yet I live on.''.The baleful revenant Mordekaiser is among the most terrifying and hateful spirits haunting the Shadow Isles. He has existed for countless centuries, shielded from true death by necromantic sorcery ...",
     "info": {
     "attack": 4,
     "defense": 6,
@@ -3691,7 +3691,7 @@
     "key": "75",
     "name": "Nasus",
     "title": "the Curator of the Sands",
-    "blurb": "''What was fallen will be great again.''<br><br>Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and ...",
+    "blurb": "''What was fallen will be great again.''.Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and ...",
     "info": {
     "attack": 7,
     "defense": 5,
@@ -4041,7 +4041,7 @@
     "key": "80",
     "name": "Pantheon",
     "title": "the Artisan of War",
-    "blurb": "''Bring forth one true champion, or a hundred more like you, and then we shall have a battle that will be spoken of until the end of time.''<br><br>The peerless warrior known as Pantheon is a nigh-unstoppable paragon of battle. He was born among the ...",
+    "blurb": "''Bring forth one true champion, or a hundred more like you, and then we shall have a battle that will be spoken of until the end of time.''.The peerless warrior known as Pantheon is a nigh-unstoppable paragon of battle. He was born among the ...",
     "info": {
     "attack": 9,
     "defense": 4,
@@ -4091,7 +4091,7 @@
     "key": "78",
     "name": "Poppy",
     "title": "Keeper of the Hammer",
-    "blurb": "''I'm no hero. Just a yordle with a hammer.''<br><br>Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing a hammer twice the length of her body, this determined yordle has spent untold years searching for the ...",
+    "blurb": "''I'm no hero. Just a yordle with a hammer.''.Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing a hammer twice the length of her body, this determined yordle has spent untold years searching for the ...",
     "info": {
     "attack": 6,
     "defense": 7,
@@ -4191,7 +4191,7 @@
     "key": "33",
     "name": "Rammus",
     "title": "the Armordillo",
-    "blurb": "''OK.''<br><br>Idolized by many, dismissed by some, mystifying to all, the curious being, Rammus, is an enigma. Protected by a spiked shell, Rammus inspires increasingly disparate theories on his origin wherever he goes - from demigod, to sacred ...",
+    "blurb": "''OK.''.Idolized by many, dismissed by some, mystifying to all, the curious being, Rammus, is an enigma. Protected by a spiked shell, Rammus inspires increasingly disparate theories on his origin wherever he goes - from demigod, to sacred ...",
     "info": {
     "attack": 4,
     "defense": 10,
@@ -4290,7 +4290,7 @@
     "key": "58",
     "name": "Renekton",
     "title": "the Butcher of the Sands",
-    "blurb": "''Blood and vengeance.''<br><br>Renekton is a terrifying, rage-fueled Ascended being from the scorched deserts of Shurima. Once, he was his empire's most esteemed warrior, leading the armies of Shurima to countless victories. However, after the ...",
+    "blurb": "''Blood and vengeance.''.Renekton is a terrifying, rage-fueled Ascended being from the scorched deserts of Shurima. Once, he was his empire's most esteemed warrior, leading the armies of Shurima to countless victories. However, after the ...",
     "info": {
     "attack": 8,
     "defense": 5,
@@ -4390,7 +4390,7 @@
     "key": "92",
     "name": "Riven",
     "title": "the Exile",
-    "blurb": "''There is a place between war and murder in which our demons lurk.''<br><br>In Noxus, any citizen may rise to power regardless of race, gender, or social standing - strength is all that matters. It was with committed faith in this ideal that Riven ...",
+    "blurb": "''There is a place between war and murder in which our demons lurk.''.In Noxus, any citizen may rise to power regardless of race, gender, or social standing - strength is all that matters. It was with committed faith in this ideal that Riven ...",
     "info": {
     "attack": 8,
     "defense": 5,
@@ -4440,7 +4440,7 @@
     "key": "68",
     "name": "Rumble",
     "title": "the Mechanized Menace",
-    "blurb": "''Ugh, it's gonna take forever to scrape your face off my suit!''<br><br>Even amongst yordles, Rumble was always the runt of the litter. As such, he was used to being bullied. In order to survive, he had to be scrappier and more resourceful than his ...",
+    "blurb": "''Ugh, it's gonna take forever to scrape your face off my suit!''.Even amongst yordles, Rumble was always the runt of the litter. As such, he was used to being bullied. In order to survive, he had to be scrappier and more resourceful than his ...",
     "info": {
     "attack": 3,
     "defense": 6,
@@ -4490,7 +4490,7 @@
     "key": "13",
     "name": "Ryze",
     "title": "the Rune Mage",
-    "blurb": "''Take care with this world. What is made can be unmade.''<br><br>Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with a boundless constitution and ...",
+    "blurb": "''Take care with this world. What is made can be unmade.''.Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with a boundless constitution and ...",
     "info": {
     "attack": 2,
     "defense": 2,
@@ -4639,7 +4639,7 @@
     "key": "98",
     "name": "Shen",
     "title": "the Eye of Twilight",
-    "blurb": "''The Eye is blind to fear, to hate, to love - to all things that would sway equilibrium.''<br><br>Leader of a secret clan of mystic warriors, Shen serves as the Eye of Twilight, entrusted to enforce equilibrium in the world. Longing to remain free ...",
+    "blurb": "''The Eye is blind to fear, to hate, to love - to all things that would sway equilibrium.''.Leader of a secret clan of mystic warriors, Shen serves as the Eye of Twilight, entrusted to enforce equilibrium in the world. Longing to remain free ...",
     "info": {
     "attack": 3,
     "defense": 9,
@@ -4789,7 +4789,7 @@
     "key": "14",
     "name": "Sion",
     "title": "The Undead Juggernaut",
-    "blurb": "BLOOD.<br><br>SMELL IT.<br><br>WANT. ACHING. NEED!<br><br>CLOSE NOW. THEY COME.<br><br>NO CHAINS? FREE! KILL!<br><br>IN REACH. YES! DIE! DIE!<br><br>Gone. Too quick. No fight. More. I want... more.<br><br>A voice? Unfamiliar. I see him. The Grand ...",
+    "blurb": "BLOOD..SMELL IT..WANT. ACHING. NEED!.CLOSE NOW. THEY COME..NO CHAINS? FREE! KILL!.IN REACH. YES! DIE! DIE!.Gone. Too quick. No fight. More. I want... more..A voice? Unfamiliar. I see him. The Grand ...",
     "info": {
     "attack": 5,
     "defense": 9,
@@ -4839,7 +4839,7 @@
     "key": "15",
     "name": "Sivir",
     "title": "the Battle Mistress",
-    "blurb": "''I don't care what face is on your coin, as long as it pays.''<br><br>Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima. Armed with her legendary jeweled crossblade, she has fought and won ...",
+    "blurb": "''I don't care what face is on your coin, as long as it pays.''.Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima. Armed with her legendary jeweled crossblade, she has fought and won ...",
     "info": {
     "attack": 9,
     "defense": 3,
@@ -4888,7 +4888,7 @@
     "key": "72",
     "name": "Skarner",
     "title": "the Crystal Vanguard",
-    "blurb": "''We are one. We cannot be shattered.''<br><br>Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as ...",
+    "blurb": "''We are one. We cannot be shattered.''.Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as ...",
     "info": {
     "attack": 7,
     "defense": 6,
@@ -5138,7 +5138,7 @@
     "key": "223",
     "name": "Tahm Kench",
     "title": "the River King",
-    "blurb": "''The whole world's a river, and I'm its king.''<br>Tahm Kench travels Runeterra's waterways, feeding his insatiable appetite with the misery of the unsuspecting. The singularly charming gourmand savors every moment of his victims' suffering.  A deal ...",
+    "blurb": "''The whole world's a river, and I'm its king.''.Tahm Kench travels Runeterra's waterways, feeding his insatiable appetite with the misery of the unsuspecting. The singularly charming gourmand savors every moment of his victims' suffering.  A deal ...",
     "info": {
     "attack": 3,
     "defense": 9,
@@ -5238,7 +5238,7 @@
     "key": "91",
     "name": "Talon",
     "title": "the Blade's Shadow",
-    "blurb": "''The three deadliest blademasters in all of Valoran are bound to the house of Du Couteau: my father, myself, and Talon. Challenge us, if you dare.''<br>-- Katarina Du Couteau<br><br>Talon's earliest memories are the darkness of Noxus' underground ...",
+    "blurb": "''The three deadliest blademasters in all of Valoran are bound to the house of Du Couteau: my father, myself, and Talon. Challenge us, if you dare.''.-- Katarina Du Couteau.Talon's earliest memories are the darkness of Noxus' underground ...",
     "info": {
     "attack": 9,
     "defense": 3,
@@ -5288,7 +5288,7 @@
     "key": "44",
     "name": "Taric",
     "title": "the Shield of Valoran",
-    "blurb": "''The best weapons are beautiful.''<br><br>Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount ...",
+    "blurb": "''The best weapons are beautiful.''.Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount ...",
     "info": {
     "attack": 4,
     "defense": 8,
@@ -5388,7 +5388,7 @@
     "key": "412",
     "name": "Thresh",
     "title": "the Chain Warden",
-    "blurb": "''The mind is a wondrous thing to tear apart.''<br><br>Sadistic and cunning, Thresh is a restless spirit who prides himself on tormenting mortals and breaking them with slow, excruciating inventiveness. His victims suffer far beyond the point of death,...",
+    "blurb": "''The mind is a wondrous thing to tear apart.''.Sadistic and cunning, Thresh is a restless spirit who prides himself on tormenting mortals and breaking them with slow, excruciating inventiveness. His victims suffer far beyond the point of death,...",
     "info": {
     "attack": 5,
     "defense": 6,
@@ -5637,7 +5637,7 @@
     "key": "29",
     "name": "Twitch",
     "title": "the Plague Rat",
-    "blurb": "H.I.V.E. Incident Report<br>Code Violation: Industrial Homicide<br>Casefile Status: Unsolved<br>Investigating Agent: Rol, P.<br><br>Team responded to report of suspicious character, criminal activity; proceeded to Sump Works, Sector 90TZ. Sector 90TZ ...",
+    "blurb": "H.I.V.E. Incident Report.Code Violation: Industrial Homicide.Casefile Status: Unsolved.Investigating Agent: Rol, P..Team responded to report of suspicious character, criminal activity; proceeded to Sump Works, Sector 90TZ. Sector 90TZ ...",
     "info": {
     "attack": 9,
     "defense": 2,
@@ -5787,7 +5787,7 @@
     "key": "110",
     "name": "Varus",
     "title": "the Arrow of Retribution",
-    "blurb": "''The life of an arrow is fleeting, built of nothing but direction and intent.''<br><br>For his incomparable skill with the bow and his unquestioned sense of honor, Varus was chosen to be the warden of a sacred Ionian temple. The temple was built to ...",
+    "blurb": "''The life of an arrow is fleeting, built of nothing but direction and intent.''.For his incomparable skill with the bow and his unquestioned sense of honor, Varus was chosen to be the warden of a sacred Ionian temple. The temple was built to ...",
     "info": {
     "attack": 7,
     "defense": 3,
@@ -5837,7 +5837,7 @@
     "key": "67",
     "name": "Vayne",
     "title": "the Night Hunter",
-    "blurb": "The world is not always as civilized as people might think. There are still those who would follow the blackest paths of magic and become corrupted by the darker powers that flow through Runeterra. Shauna Vayne knows this fact well.<br><br>As a young ...",
+    "blurb": "The world is not always as civilized as people might think. There are still those who would follow the blackest paths of magic and become corrupted by the darker powers that flow through Runeterra. Shauna Vayne knows this fact well..As a young ...",
     "info": {
     "attack": 10,
     "defense": 1,
@@ -5936,7 +5936,7 @@
     "key": "161",
     "name": "Vel'Koz",
     "title": "the Eye of the Void",
-    "blurb": "I pass into the sudden glare. Blink. Blink, blink, blink. My eyes adjust and evaluate the landscape before me.<br><br>There's a scurrying. I look down to find a small, white creature standing on its hind legs, sniffing at my body. It intrigues me....",
+    "blurb": "I pass into the sudden glare. Blink. Blink, blink, blink. My eyes adjust and evaluate the landscape before me..There's a scurrying. I look down to find a small, white creature standing on its hind legs, sniffing at my body. It intrigues me....",
     "info": {
     "attack": 2,
     "defense": 2,
@@ -6234,7 +6234,7 @@
     "key": "101",
     "name": "Xerath",
     "title": "the Magus Ascendant",
-    "blurb": "''A lifetime as a slave has prepared me for eternity as your master.''<br><br>Xerath is an Ascended Magus of ancient Shurima, a being of arcane energy writhing in the broken shards of a magical sarcophagus. For millennia, he was trapped beneath the ...",
+    "blurb": "''A lifetime as a slave has prepared me for eternity as your master.''.Xerath is an Ascended Magus of ancient Shurima, a being of arcane energy writhing in the broken shards of a magical sarcophagus. For millennia, he was trapped beneath the ...",
     "info": {
     "attack": 1,
     "defense": 3,
@@ -6284,7 +6284,7 @@
     "key": "5",
     "name": "Xin Zhao",
     "title": "the Seneschal of Demacia",
-    "blurb": "''Death is inevitable, one can only avoid defeat.''<br><br>Whenever Jarvan III, the king of Demacia, delivers one of his rallying speeches from the glinting marble balcony atop the Royal Palace, Xin Zhao is at his side. Coined the Seneschal of Demacia,...",
+    "blurb": "''Death is inevitable, one can only avoid defeat.''.Whenever Jarvan III, the king of Demacia, delivers one of his rallying speeches from the glinting marble balcony atop the Royal Palace, Xin Zhao is at his side. Coined the Seneschal of Demacia,...",
     "info": {
     "attack": 8,
     "defense": 6,
@@ -6384,7 +6384,7 @@
     "key": "83",
     "name": "Yorick",
     "title": "Shepherd of Souls",
-    "blurb": "''These isles… How they scream.''<br>The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that ...",
+    "blurb": "''These isles… How they scream.''.The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that ...",
     "info": {
     "attack": 6,
     "defense": 6,

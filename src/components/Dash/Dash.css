@@ -14,3 +14,12 @@
 	text-decoration:none;
 	text-shadow:1px 1px 36px #2b665e;
 }
+
+.info{
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .favorite{
+	border-radius: 90%;
+} */

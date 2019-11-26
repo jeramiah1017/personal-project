@@ -17,5 +17,6 @@ massive(CONNECTION_STRING).then(db => {
   app.set('db', db)
   console.log('Database Connected')
 })
-
+app.post('/auth/register', auth.register)
+app.post('/auth/login', auth.login)
 app.listen(SERVER_PORT, () => console.log(`${SERVER_PORT} CS in 10 minutes`))
