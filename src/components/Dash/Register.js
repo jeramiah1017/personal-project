@@ -28,6 +28,7 @@ class Register extends Component {
         .then(res => {
           console.log(res.data)
           this.props.updateUser(res.data.user)
+          // this.props.history.push('/dash2')
         })
         .catch(err => {
           console.log(err.response.data.message)
@@ -70,9 +71,9 @@ class Register extends Component {
         placeholder="How do you feel about league of legends ??"
         type='text'
         />
-        <button onClick={this.register}>Register</button>
+       <Link to='/Dash2'> <button onClick={this.register}>Register</button> </Link>
       </div>
-    )
+    ) 
   }
 }
 

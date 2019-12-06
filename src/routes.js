@@ -7,7 +7,7 @@ import Account from './components/Account/Account'
 export default (
     <Switch>
         <Route exact path='/' component={Dash}/>
-        <Route path='/loggedin' component={Dash2} />
+        <Route path='/dash2' component={Dash2} />
         <Route path='/${username}' component={Account}/>
     </Switch>
 )

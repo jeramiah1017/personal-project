@@ -12,7 +12,7 @@ user_id int REFERENCES users(user_id)
 create  table favorites (
 favorites_id serial primary key,
 user_id int references users(user_id),
-key int,
+key varchar(15),
 name varchar(30),
 image text
 );
@@ -20,3 +20,6 @@ image text
 insert into users (email, username, bio )
 values 
 ('idubbbz1017@gmail.com', 'oftt', 'This is a smurf haha')
+
+insert into favorites (name, image)
+values ('Vi', 'http://ddragon.leagueoflegends.com/cdn/9.23.1/img/champion/Vi.png')

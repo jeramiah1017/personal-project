@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import axios  from 'axios'
 import {updateUser} from '../../ducks/reducer'
 import {connect} from 'react-redux'
-import Swal from "sweetalert";
+import Swal from "sweetalert2";
 import {withRouter} from 'react-router-dom'
+import './login.css'
 // import './login.css';
 
 class Login extends React.Component {
@@ -20,8 +21,8 @@ class Login extends React.Component {
     .post('/auth/login', {email, password})
     .then(res => {
       this.props.updateUser(res.data.user)
-      // // Swal.fire(res.data.message)
-      // this.props.history.push('/')
+      Swal.fire(res.data.message)
+      this.props.history.push('/dash2')
     })
     .catch(err => {
       console.log(err)
@@ -33,18 +34,21 @@ class Login extends React.Component {
     return (
       <div className="login">
         <div className="login_inner">
-          <input onChange={e => this.handleChange('email', e.target.value)}
+          <input class='username' onChange={e => this.handleChange('email', e.target.value)}
           value={this.state.email}
           placeholder='Email'
           type='text' />
-          <input onChange={e => this.handleChange('password', e.target.value)}
+          <input class="password"onChange={e => this.handleChange('password', e.target.value)}
           value={this.state.password}
           placeholder='Password'
           type='password'/>
           <button onClick={this.login}>Confirm</button>
         </div>
+        
       </div>
+      
     );
+    
   }
 }
 

@@ -3,6 +3,7 @@ import "./Dash.css";
 import Login from "./Login";
 import Register from "./Register";
 import champions from "../../champions.json";
+import Swal from "sweetalert2";
 
 export default class Dash extends Component {
   state = {
@@ -25,6 +26,9 @@ export default class Dash extends Component {
       champs: champions.data
     });
   }
+  alert() {
+  Swal.fire("What are you a dota player ??  Login !")
+  }
 
   render() {
     let champs = champions.data;
@@ -39,16 +43,16 @@ export default class Dash extends Component {
         <div>
           {/* {champs[name].key = champs[name].key} */}
           <header>{champs[name].name}</header>
-          <img src={champs[name].image.img} alt='null' />
+          <a href={`https://u.gg/lol/champions/${champs[name].id}/build/`}><img src={champs[name].image.img} alt='null' /></a>
           <li>HP:{champs[name].stats.hp}</li>
           <li>MP:{champs[name].stats.mp}</li>
           <li>Attack Damage:{champs[name].stats.attackdamage}</li>
           <li>Attack Range:{champs[name].stats.attackrange}</li>
           <p>{champs[name].blurb}</p>
-          <button classname='favorite'>Favorite</button>
+          <button classname='fav' onClick={() => {this.alert()}}>Favorite</button>
         </div>
       );
-      console.log(champs[name].tags);
+      // console.log(champs[name].tags);
       if (
         champs[name].tags[0] === "Support" ||
         champs[name].tags[1] === "Support"
@@ -71,7 +75,7 @@ export default class Dash extends Component {
         mid.push(properties);
       } else if (
         champs[name].tags[0] === "Tank" ||
-        champs[name].tags[1] === "Fighter"
+        champs[name].tags[1] === "Tank"
       ) {
         jungle.push(properties);
       } else if (
@@ -105,18 +109,18 @@ export default class Dash extends Component {
           </button>
           {this.state.showRegister ? <Register /> : null}
         </div>
-        <div className='info'>
+        <ul className='info'>
         <h1>Top</h1>
-        <ul>{top}</ul>
-        <h2>Jungle</h2>
-        <ul>{jungle}</ul>
-        <h3>Mid</h3>
-        <ul>{mid}</ul>
-        <h4>Carry</h4>
-        <ul>{adc}</ul>
-        <h5>Support</h5>
-        <ul>{support}</ul>
-        </div>
+        <li classname="top">{top}</li>
+        <h1>Jungle</h1>
+        <li classname="jungle">{jungle}</li>
+        <h1>Mid</h1>
+        <li classname="mid">{mid}</li>
+        <h1>Carry</h1>
+        <li classname="adc">{adc}</li>
+        <h1>Support</h1>
+        <li classname="support">{support}</li>
+        </ul>
       </div>
     );
   }

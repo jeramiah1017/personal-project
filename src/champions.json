@@ -26,8 +26,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
     ],
     "partype": "BloodWell",
     "stats": {
@@ -226,7 +225,7 @@
     },
     "tags": [
     "Tank",
-    "Mage"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -374,8 +373,7 @@
     "h": 48
     },
     "tags": [
-    "Marksman",
-    "Support"
+    "Marksman"
     ],
     "partype": "MP",
     "stats": {
@@ -573,8 +571,8 @@
     "h": 48
     },
     "tags": [
-    "Tank",
-    "Fighter"
+    "Support",
+    "Support"
     ],
     "partype": "MP",
     "stats": {
@@ -623,7 +621,7 @@
     "h": 48
     },
     "tags": [
-    "Mage"
+    "Support"
     ],
     "partype": "MP",
     "stats": {
@@ -771,8 +769,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
+
     ],
     "partype": "MP",
     "stats": {
@@ -870,8 +868,7 @@
     "h": 48
     },
     "tags": [
-    "Tank",
-    "Mage"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -969,8 +966,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
+  
     ],
     "partype": "MP",
     "stats": {
@@ -1118,8 +1115,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
     ],
     "partype": "None",
     "stats": {
@@ -1169,7 +1165,8 @@
     },
     "tags": [
     "Assassin",
-    "Fighter"
+    "Fighter",
+    "Mage"
     ],
     "partype": "MP",
     "stats": {
@@ -1218,8 +1215,7 @@
     "h": 48
     },
     "tags": [
-    "Mage",
-    "Fighter"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -1268,8 +1264,8 @@
     "h": 48
     },
     "tags": [
-    "Assassin",
-    "Mage"
+    "Tank",
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -1418,8 +1414,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Assassin"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -1617,8 +1612,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
+   
     ],
     "partype": "None",
     "stats": {
@@ -1667,8 +1662,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
+
     ],
     "partype": "Gnarfury",
     "stats": {
@@ -1718,7 +1713,7 @@
     },
     "tags": [
     "Fighter",
-    "Mage"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -1767,7 +1762,7 @@
     "h": 48
     },
     "tags": [
-    "Marksman"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -1866,8 +1861,7 @@
     "h": 48
     },
     "tags": [
-    "Mage",
-    "Support"
+    "Mage"
     ],
     "partype": "MP",
     "stats": {
@@ -1916,8 +1910,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
+  
     ],
     "partype": "MP",
     "stats": {
@@ -2016,8 +2010,7 @@
     "h": 48
     },
     "tags": [
-    "Support",
-    "Mage"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -2166,8 +2159,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Assassin"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -2217,7 +2209,7 @@
     },
     "tags": [
     "Fighter",
-    "Marksman"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -2613,8 +2605,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Support"
+    "Fighter"
+   
     ],
     "partype": "MP",
     "stats": {
@@ -2663,8 +2655,7 @@
     "h": 48
     },
     "tags": [
-    "Mage",
-    "Marksman"
+    "Fighter"
     ],
     "partype": "Energy",
     "stats": {
@@ -2713,7 +2704,7 @@
     "h": 48
     },
     "tags": [
-    "Assassin",
+    "Tank",
     "Fighter"
     ],
     "partype": "MP",
@@ -2763,7 +2754,7 @@
     "h": 48
     },
     "tags": [
-    "Marksman"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -2812,8 +2803,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
     ],
     "partype": "Gnarfury",
     "stats": {
@@ -2963,7 +2953,7 @@
     },
     "tags": [
     "Fighter",
-    "Assassin"
+    "Tank"
     ],
     "partype": "Energy",
     "stats": {
@@ -3360,8 +3350,7 @@
     "h": 48
     },
     "tags": [
-    "Tank",
-    "Mage"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -3410,8 +3399,8 @@
     "h": 48
     },
     "tags": [
-    "Assassin",
-    "Fighter"
+    "Tank",
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -3709,7 +3698,7 @@
     },
     "tags": [
     "Fighter",
-    "Tank"
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -3758,8 +3747,7 @@
     "h": 48
     },
     "tags": [
-    "Tank",
-    "Fighter"
+    "Support"
     ],
     "partype": "MP",
     "stats": {
@@ -3808,7 +3796,7 @@
     "h": 48
     },
     "tags": [
-    "Assassin",
+    "Tank",
     "Fighter"
     ],
     "partype": "MP",
@@ -3858,7 +3846,7 @@
     "h": 48
     },
     "tags": [
-    "Assassin",
+    "Tank",
     "Fighter"
     ],
     "partype": "MP",
@@ -3908,8 +3896,7 @@
     "h": 48
     },
     "tags": [
-    "Support",
-    "Fighter"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -4108,7 +4095,7 @@
     "h": 48
     },
     "tags": [
-    "Tank",
+    "Fighter",
     "Fighter"
     ],
     "partype": "MP",
@@ -4158,7 +4145,6 @@
     "h": 48
     },
     "tags": [
-    "Marksman",
     "Fighter"
     ],
     "partype": "MP",
@@ -4258,7 +4244,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter"
+    "Tank"
     ],
     "partype": "Battlefury",
     "stats": {
@@ -4307,8 +4293,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
     ],
     "partype": "Rage",
     "stats": {
@@ -4357,7 +4342,7 @@
     "h": 48
     },
     "tags": [
-    "Assassin",
+    "Tank",
     "Fighter"
     ],
     "partype": "Ferocity",
@@ -4407,8 +4392,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Assassin"
+    "Fighter"
     ],
     "partype": "None",
     "stats": {
@@ -4457,8 +4441,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Mage"
+    "Fighter"
     ],
     "partype": "Heat",
     "stats": {
@@ -4607,7 +4590,7 @@
     "h": 48
     },
     "tags": [
-    "Assassin"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -4656,7 +4639,7 @@
     "h": 48
     },
     "tags": [
-    "Tank",
+    "Fighter",
     "Melee"
     ],
     "partype": "Energy",
@@ -4756,7 +4739,7 @@
     "h": 48
     },
     "tags": [
-    "Tank",
+    "Fighter",
     "Fighter"
     ],
     "partype": "MP",
@@ -4806,7 +4789,6 @@
     "h": 48
     },
     "tags": [
-    "Tank",
     "Fighter"
     ],
     "partype": "MP",
@@ -5055,7 +5037,6 @@
     "h": 48
     },
     "tags": [
-    "Mage",
     "Fighter"
     ],
     "partype": "MP",
@@ -5105,8 +5086,8 @@
     "h": 48
     },
     "tags": [
-    "Mage",
-    "Support"
+    "Mage"
+
     ],
     "partype": "MP",
     "stats": {
@@ -5205,8 +5186,7 @@
     "h": 48
     },
     "tags": [
-    "Mage",
-    "Support"
+    "Mage"
     ],
     "partype": "MP",
     "stats": {
@@ -5355,8 +5335,8 @@
     "h": 48
     },
     "tags": [
-    "Marksman",
-    "Assassin"
+    "Fighter",
+    "Fighter"
     ],
     "partype": "MP",
     "stats": {
@@ -5555,8 +5535,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Assassin"
+    "Fighter"
     ],
     "partype": "Battlefury",
     "stats": {
@@ -5754,7 +5733,6 @@
     "h": 48
     },
     "tags": [
-    "Marksman",
     "Fighter"
     ],
     "partype": "MP",
@@ -6002,8 +5980,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Assassin"
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -6101,8 +6078,7 @@
     "h": 48
     },
     "tags": [
-    "Mage",
-    "Tank"
+    "Fighter"
     ],
     "partype": "Gnarfury",
     "stats": {
@@ -6201,7 +6177,7 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
+    "Tank",
     "Tank"
     ],
     "partype": "MP",
@@ -6301,8 +6277,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Assassin"
+    "Tank",
+    "Tank"
     ],
     "partype": "MP",
     "stats": {
@@ -6401,8 +6377,8 @@
     "h": 48
     },
     "tags": [
-    "Fighter",
-    "Tank"
+    "Fighter"
+
     ],
     "partype": "MP",
     "stats": {
