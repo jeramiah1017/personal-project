@@ -19,12 +19,12 @@ massive(CONNECTION_STRING).then(db => {
 })
 app.post('/auth/register', auth.register)
 app.post('/auth/login', auth.login)
-app.delete('/auth/logout', auth.logout)
 app.post('/api/faves', ctrl.addFave)
-app.get('/api/faves', ctrl.getFaves)
+app.delete('/auth/logout', auth.logout)
 app.delete('/api/deletefaves/:favorites_id', ctrl.deleteF)
 app.put('/api/bio/:user_id', ctrl.updateBio)
 // app.get('/api/encrypt', ctrl.getEncrypt)
+app.get('/api/faves', ctrl.getFaves)
 const path = require('path'); // Usually moved to the start of file
 
 app.get('*', (req, res)=>{
