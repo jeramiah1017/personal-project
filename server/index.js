@@ -25,5 +25,9 @@ app.get('/api/faves', ctrl.getFaves)
 app.delete('/api/deletefaves/:favorites_id', ctrl.deleteF)
 app.put('/api/bio/:user_id', ctrl.updateBio)
 // app.get('/api/encrypt', ctrl.getEncrypt)
+const path = require('path'); // Usually moved to the start of file
 
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
 app.listen(SERVER_PORT, () => console.log(`${SERVER_PORT} CS in 10 minutes`))
