@@ -2,14 +2,15 @@ import React, { Component } from "react";
 import "./Dash.css";
 import Login from "./Login";
 import Register from "./Register";
-import champions from "../../champions.json";
-import Swal from "sweetalert2";
 
-export default class Dash extends Component {
+import Swal from "sweetalert2";
+import { connect } from "react-redux";
+
+class Dash extends Component {
   state = {
     showLogin: false,
-    showRegister: false,
-    champs: []
+    showRegister: false
+    // champs: []
   };
   toggleLogin() {
     this.setState({
@@ -21,17 +22,12 @@ export default class Dash extends Component {
       showRegister: !this.state.showRegister
     });
   }
-  componentDidMount() {
-    this.setState({
-      champs: champions.data
-    });
-  }
   alert() {
-  Swal.fire("What are you a dota player ??  Login !")
+    Swal.fire("What are you a dota player ??  Login !");
   }
 
   render() {
-    let champs = champions.data;
+    let champs = this.props.champs;
     let ch = [];
     let top = [];
     let jungle = [];
@@ -41,15 +37,23 @@ export default class Dash extends Component {
     for (let name in champs) {
       let properties = (
         <div>
-          {/* {champs[name].key = champs[name].key} */}
           <header>{champs[name].name}</header>
-          <a href={`https://u.gg/lol/champions/${champs[name].id}/build/`}><img src={champs[name].image.img} alt='null' /></a>
+          <a href={`https://u.gg/lol/champions/${champs[name].id}/build/`}>
+            <img src={champs[name].image.img} alt="null" />
+          </a>
           <li>HP:{champs[name].stats.hp}</li>
           <li>MP:{champs[name].stats.mp}</li>
           <li>Attack Damage:{champs[name].stats.attackdamage}</li>
           <li>Attack Range:{champs[name].stats.attackrange}</li>
           <p>{champs[name].blurb}</p>
-          <button classname='fav' onClick={() => {this.alert()}}>Favorite</button>
+          <button
+            classname="fav"
+            onClick={() => {
+              this.alert();
+            }}
+          >
+            Favorite
+          </button>
         </div>
       );
       // console.log(champs[name].tags);
@@ -85,8 +89,6 @@ export default class Dash extends Component {
         top.push(properties);
       } else ch.push(properties);
     }
-
-    // console.log(champions)
     return (
       <div>
         <div>
@@ -109,19 +111,25 @@ export default class Dash extends Component {
           </button>
           {this.state.showRegister ? <Register /> : null}
         </div>
-        <ul className='info'>
-        <h1>Top</h1>
-        <li classname="top">{top}</li>
-        <h1>Jungle</h1>
-        <li classname="jungle">{jungle}</li>
-        <h1>Mid</h1>
-        <li classname="mid">{mid}</li>
-        <h1>Carry</h1>
-        <li classname="adc">{adc}</li>
-        <h1>Support</h1>
-        <li classname="support">{support}</li>
+        <ul className="info">
+          <h1>Top</h1>
+          <li classname="top">{top}</li>
+          <h1>Jungle</h1>
+          <li classname="jungle">{jungle}</li>
+          <h1>Mid</h1>
+          <li classname="mid">{mid}</li>
+          <h1>Carry</h1>
+          <li classname="adc">{adc}</li>
+          <h1>Support</h1>
+          <li classname="support">{support}</li>
         </ul>
       </div>
     );
   }
 }
+
+const mapStateToProps = reduxState => {
+  return reduxState;
+};
+
+export default connect(mapStateToProps)(Dash);

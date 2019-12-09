@@ -23,3 +23,9 @@ values
 
 insert into favorites (name, image)
 values ('Vi', 'http://ddragon.leagueoflegends.com/cdn/9.23.1/img/champion/Vi.png')
+
+
+
+update users set 
+bio = 'asdf'
+where user_id = 3

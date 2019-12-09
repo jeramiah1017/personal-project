@@ -12,7 +12,7 @@ table.minimalistBlack {
   }
   table.minimalistBlack td, table.minimalistBlack th {
     border: 4px solid #000000;
-    padding: 10px 10px;
+    padding: 5px 5px;
   }
   table.minimalistBlack tbody td {
     font-size: 17px;
@@ -32,7 +32,7 @@ table.minimalistBlack {
     border-left: 0px solid #D0E4F5;
   }
   table.minimalistBlack thead th:first-child {
-    border-left: none;
+    /* border-left: none; */
   }
   
   table.minimalistBlack tfoot {
@@ -89,4 +89,12 @@ table.minimalistBlack {
     color: red;
     overflow: hidden; 
     box-shadow: 5px 5px 0 0 #aaa;
+    padding: 2%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .minimalistBlack, .minimalistBlack2 {
+      float: none;
+      width: 100%;
+    }
   }

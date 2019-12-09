@@ -23,6 +23,7 @@ app.delete('/auth/logout', auth.logout)
 app.post('/api/faves', ctrl.addFave)
 app.get('/api/faves', ctrl.getFaves)
 app.delete('/api/deletefaves/:favorites_id', ctrl.deleteF)
+app.put('/api/bio/:user_id', ctrl.updateBio)
 // app.get('/api/encrypt', ctrl.getEncrypt)
 
 app.listen(SERVER_PORT, () => console.log(`${SERVER_PORT} CS in 10 minutes`))

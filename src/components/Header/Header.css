@@ -3,6 +3,7 @@
 }
 
 header{
+	width: 100%;
     -webkit-box-shadow: -20px 27px 104px 52px rgba(0,0,0,0.21);
     -moz-box-shadow: -20px 27px 104px 52px rgba(0,0,0,0.21);
     box-shadow: -20px 27px 104px 52px rgba(0,0,0,0.21);

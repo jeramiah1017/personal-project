@@ -34,6 +34,15 @@ module.exports = {
         console.log(err)
     })
   },
+  updateBio: (req, res) => {
+    const db = req.app.get('db')
+    const {user_id} = req.params
+    const {bio} = req.body
+    db.update_bio([user_id, bio])
+    .then((result) => {
+        res.status(200).send(result)
+    })
+}
 }
 //   getEncrypt: async (req, res) => {
 //     await fetch(

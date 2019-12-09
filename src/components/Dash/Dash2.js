@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import champions from "../../champions.json";
+// import champions from "../../champions.json";
 import "./Dash.css";
 import { Link } from "react-router-dom";
 import Logout from "./Logout";
@@ -8,28 +8,14 @@ import axios from "axios";
 import Swal from "sweetalert2";
 
 class Dash2 extends Component {
-  state = {
-    username: "",
-    champs: []
-  };
-
   favorite(name, image, key) {
     axios.post("/api/faves", { name, image, key }).then(res => {
-      console.log(res);
       Swal.fire(res.data);
     });
   }
 
-  componentDidMount(props) {
-    this.setState({
-      champs: champions.data,
-      username: this.props.username
-    });
-    // console.log(this.props.username)
-  }
-
   render() {
-    let champs = champions.data;
+    let champs = this.props.champs;
     let ch = [];
     let top = [];
     let jungle = [];
@@ -39,7 +25,6 @@ class Dash2 extends Component {
     for (let name in champs) {
       let properties = (
         <div>
-          {/* {champs[name].key = champs[name].key} */}
           <header>{champs[name].name}</header>
 
           <li>HP:{champs[name].stats.hp}</li>
@@ -49,7 +34,7 @@ class Dash2 extends Component {
           <a href={`https://u.gg/lol/champions/${champs[name].id}/build/`}>
             <img src={champs[name].image.img} alt="null" />
           </a>
-          {/* <p>{champs[name].blurb}</p> */}
+
           <button
             classname="favorite"
             onClick={() =>
@@ -64,7 +49,7 @@ class Dash2 extends Component {
           </button>
         </div>
       );
-      // console.log(champs[name].tags);
+
       if (
         champs[name].tags[0] === "Support" ||
         champs[name].tags[1] === "Support"
@@ -97,12 +82,12 @@ class Dash2 extends Component {
         top.push(properties);
       } else ch.push(properties);
     }
+    const { users } = this.props;
 
-    // console.log(champions)
     return (
       <div>
         <Link to="/${username}">
-          <h1 className="Welcome"> Welcome {this.state.username} ! </h1>
+          <h1 className="Welcome"> Welcome {users.username} ! </h1>
         </Link>
         <Logout />
         <div className="info">

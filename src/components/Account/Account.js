@@ -2,16 +2,42 @@ import React, { Component } from "react";
 import axios from "axios";
 import Logout from "../Dash/Logout";
 import { connect } from "react-redux";
+import {updateUser} from '../../ducks/userReducer'
 import "./account.css";
+import {Pie, Doughnut} from 'react-chartjs-2';
+
 // import Graph from '../../Graph'
 class Account extends Component {
   state = {
     encryptedId: "",
-    faves: []
+    faves: [],
+    edit: false,
+    bio: ""
   };
+
   componentDidMount() {
     this.getFaves();
     // this.getEncrypt();
+  }
+
+  editToggle() {
+    this.setState({
+      edit: !this.state.edit
+    });
+  }
+
+  onChange = ({ name, value }) => {
+    console.log({ name, value });
+    this.setState({
+      [name]: value
+    });
+  };
+
+  editBio(user_id) {
+    console.log(this.props)
+    axios.put(`/api/bio/${user_id}`, {
+      bio: this.props.users.bio
+    });
   }
   // getEncrypt() {
   //   // axios.get('/api/encrypt')
@@ -43,6 +69,7 @@ class Account extends Component {
       });
     });
   };
+
   getFaves() {
     axios.get("/api/faves").then(res => {
       console.log(res.data);
@@ -51,6 +78,7 @@ class Account extends Component {
       });
     });
   }
+
   mapover(arr) {
     console.log(arr);
     return arr.map(obj => (
@@ -67,7 +95,12 @@ class Account extends Component {
       </div>
     ));
   }
+  arrLength = (arr) => {
+      return arr.length
+      
+  }
   render() {
+    
     const champs = this.state.faves;
     let top = this.mapover(champs.filter(key => key.key.includes("Fighter")));
     let adc = this.mapover(champs.filter(key => key.key.includes("Marksman")));
@@ -78,13 +111,83 @@ class Account extends Component {
     let support = this.mapover(
       champs.filter(key => key.key.includes("Support"))
     );
-
+    const { users } = this.props;
+    const datagraph = {
+      labels: ['Top', 'Jungle', 'Mid',
+               'Bottom', 'Support'],
+      datasets: [
+        {
+          label: 'Rainfall',
+          backgroundColor: [
+            '#ffcccc',
+            '#cccc00',
+            '#003300',
+            '#001a1a',
+            '#1f004d'
+            
+          ],
+          hoverBackgroundColor: [
+          '#501800',
+          '#4B5000',
+          '#175000',
+          '#003350',
+          '#35014F'
+          ],
+          data: [this.arrLength(top), this.arrLength(jungle), this.arrLength(mid), this.arrLength(adc), this.arrLength(support)]
+        }
+      ]
+    }
     return (
       <div>
-        <h1>{this.props.username}</h1>
-        <p class="bio">{this.props.bio}<button>Edit</button></p>
+        <h1>{users.username}</h1>
+        <button
+          onClick={() => {
+            this.editToggle();
+          }}
+        >
+          Edit
+        </button>
+        {this.state.edit ? (
+          <div>
+            <input
+              // onChange={event => this.onChange(event.target)}
+              onChange={event => this.props.onChangeBio(event.target.value)}
+              className="bio"
+              placeholder={this.props.bio}
+              name="bio"
+              value={this.props.users.bio}
+            />
+            <button
+              onClick={() => {
+                this.editBio(users.user_id);
+                this.editToggle()
+              }}
+            >
+              Confirm
+            </button>
+          </div>
+        ) : (
+          <p className="bio">{users.bio}</p>
+        )}
         <Logout />
-        <table class="minimalistBlack2">
+        <Doughnut
+          data={datagraph}
+          width={160}
+          height={50}
+          options={{
+            title:{
+              display:true,
+              text:'Average Rainfall per month',
+              fontSize:20
+            },
+            legend:{
+              display:true,
+              position:'right',
+            
+            }
+          }}
+        />
+        <table className="minimalistBlack2">
           <thead>
             <tr>
               <th>Wins</th>
@@ -102,7 +205,7 @@ class Account extends Component {
             </tr>
           </tbody>
         </table>
-        <table class="minimalistBlack">
+        <table className="minimalistBlack">
           <thead>
             <tr>
               <th>Top</th>
@@ -126,7 +229,16 @@ class Account extends Component {
     );
   }
 }
-function mapStateToProps(reduxState) {
+
+const mapStateToProps = reduxState => {
   return reduxState;
-}
-export default connect(mapStateToProps)(Account);
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    updateUser: () => dispatch({ type: "UPDATE_USER", payload: "bio" }),
+    onChangeBio: (bio) => dispatch({ type: "UPDATE_BIO", value: bio }),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Account);

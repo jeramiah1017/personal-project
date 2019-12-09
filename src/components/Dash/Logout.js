@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { updateUser } from '../../ducks/reducer'
+import { updateUser } from '../../ducks/userReducer'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 import {Link} from  'react-router-dom'
