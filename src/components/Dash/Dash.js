@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Dash.css";
 import Login from "./Login";
 import Register from "./Register";
+import { Link } from 'react-router-dom'
+import Stripe from '../Stripe/Stripe.js'
 
 import Swal from "sweetalert2";
 import { connect } from "react-redux";
@@ -100,6 +102,7 @@ class Dash extends Component {
           >
             Login
           </button>
+        <Link to= '/donate'><button className='button1'>Donate</button></Link> 
           {this.state.showLogin ? <Login /> : null}
           <button
             className="button2"
@@ -123,6 +126,7 @@ class Dash extends Component {
           <h1>Support</h1>
           <li classname="support">{support}</li>
         </ul>
+
       </div>
     );
   }

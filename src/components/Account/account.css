@@ -92,9 +92,23 @@ table.minimalistBlack {
     padding: 2%;
   }
 
-  @media screen and (max-width: 600px) {
-    .minimalistBlack, .minimalistBlack2 {
-      float: none;
-      width: 100%;
+
+
+  @media (max-width: 360px) { 
+    .minimalistBlack{
+      width: 60px;
+      font-size: 15px;
+    }
+ .minimalistBlack2 {
+
+      width: 80%;
+      margin-left: 15%;
+      margin-top:5%;
+    }
+    .bio {
+      margin-left: 120px;
+    }
+    .button {
+      margin-left: 50px;
     }
   }

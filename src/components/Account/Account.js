@@ -158,6 +158,7 @@ class Account extends Component {
               value={this.props.users.bio}
             />
             <button
+            className="button"
               onClick={() => {
                 this.editBio(users.user_id);
                 this.editToggle()
@@ -169,7 +170,7 @@ class Account extends Component {
         ) : (
           <p className="bio">{users.bio}</p>
         )}
-        <Logout />
+        <Logout classname='button' />
         <Doughnut
           data={datagraph}
           width={160}
@@ -177,7 +178,7 @@ class Account extends Component {
           options={{
             title:{
               display:true,
-              text:'Average Rainfall per month',
+              text:'Favorite Lane',
               fontSize:20
             },
             legend:{

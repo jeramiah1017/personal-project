@@ -35,7 +35,7 @@
 }
 
 li {
-	margin-top: ;
+	/* margin-top: ; */
 	scroll-snap-align: center;
     display: inline-block;
     /* height: 83vh; */
@@ -61,5 +61,20 @@ height: 17px;
 /* width: 105px; */
 }
 
+@media (max-width: 370px) {
+li {
+	border-radius: 4px;
+	width: 100px;
+	image-resolution: 20px;
+}
+.info {
+	font-size: 10px;
+	
+}
+.button1, .button2 {
+	padding: 3px, 3px;
+	background:linear-gradient(to bottom,blue 5%, black 100%);
+}
 
+}
 
